@@ -16,23 +16,26 @@ const Portfolio = ({settingFlag}) => {
              
              initial = {{scale:0.5}}
              animate = {{scale:1}}
-
+             
              >
-             <h1 style={{fontSize:"250px"}} className='headerFont'>I'm Arjun Tudu</h1>
+             <h1 style={{fontSize:"250px"}} className='descFont'>I'm Arjun Tudu</h1>
              </motion.div>
 
             <div style={{width:"100%",display:"grid",placeItems:"center"}}>
              
-             <motion.div  animate = {{rotate:"360deg"}} >
-             <p className='descFont' style={{fontSize:"50px",opacity:"0.6",marginLeft:""}}> I'm Here to Help Your Organization grow with the help of my abilities </p>
+             <motion.div  animate = {{scale:1.2}}  >
+             <p className='descFont' style={{fontSize:"50px",opacity:"0.6",marginLeft:"",fontWeight:"100"}}> I'm Here to Help Your Organization grow with the help of my abilities </p>
+             
              </motion.div>
-            
+             
             <p></p>
            
            <motion.div 
            whileHover={{
             scale:1.2
            }}
+
+          
 
            initial = {{y:-100}}
            animate = {{y:0}}

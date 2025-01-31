@@ -19,7 +19,8 @@ const Projects = () => {
                <motion.div          
               initial = {{x:-100}}
               animate = {{x:0}}
-              whileHover={{scale:1.2}}
+              whileHover={{scale:1.1}}
+              whileTap={{ scale: 0.8 }}
               >
 
                <a href='https://exam-frontend-vert.vercel.app'>
@@ -50,6 +51,7 @@ const Projects = () => {
               initial = {{x:-100}}
               animate = {{x:0}}
               whileHover={{scale:1.2}}
+              whileTap={{ scale: 0.8 }}
               >
                 
               <a href='https://chatapp-final-3-frontendooo.vercel.app'>
@@ -77,6 +79,7 @@ const Projects = () => {
               initial = {{x:-100}}
               animate = {{x:0}}
               whileHover={{scale:1.2}}
+              whileTap={{ scale: 0.8 }}
               >
                 
                <a href='https://mern-practice-1.vercel.app'>
@@ -102,6 +105,7 @@ const Projects = () => {
               initial = {{x:-100}}
               animate = {{x:0}}
               whileHover={{scale:1.2}}
+              whileTap={{ scale: 0.8 }}
               >
                 
               <a href='https://react2-frontend.vercel.app'>
@@ -129,6 +133,7 @@ const Projects = () => {
               initial = {{x:-100}}
               animate = {{x:0}}
               whileHover={{scale:1.2}}
+              whileTap={{ scale: 0.8 }}
               >
                 
              <a href='https://text-editordawdaw.vercel.app'>
@@ -156,6 +161,7 @@ const Projects = () => {
               initial = {{x:-100}}
               animate = {{x:0}}
               whileHover={{scale:1.2}}
+              whileTap={{ scale: 0.8 }}
               >
                 
               <a href='https://next-new-1.vercel.app'>
@@ -182,6 +188,8 @@ const Projects = () => {
                         initial = {{x:-100}}
                         animate = {{x:0}}
                         whileHover={{scale:1.2}}
+                        whileTap={{ scale: 0.8 }}
+                        
                         >
                         
                         <a href='https://todo-new-olive.vercel.app'>
